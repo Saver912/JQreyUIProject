@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="JQueryUI.suite" duration-ms="113360" started-at="2019-10-06T19:50:33Z" finished-at="2019-10-06T19:52:27Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="113360" started-at="2019-10-06T19:50:33Z" finished-at="2019-10-06T19:52:27Z">
+      <class name="com.jquery.ui.JqueryUITest">
+        <test-method status="PASS" signature="eachMethodStart()[pri:0, instance:com.jquery.ui.JqueryUITest@7cbd213e]" name="eachMethodStart" is-config="true" duration-ms="4007" started-at="2019-10-06T19:50:33Z" finished-at="2019-10-06T19:50:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eachMethodStart -->
+        <test-method status="FAIL" signature="StartChromeBrowser()[pri:0, instance:com.jquery.ui.JqueryUITest@7cbd213e]" name="StartChromeBrowser" duration-ms="1555" started-at="2019-10-06T19:50:37Z" finished-at="2019-10-06T19:50:39Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://jqueryui.com/vih8y] but found [https://jqueryui.com/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://jqueryui.com/vih8y] but found [https://jqueryui.com/]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.jquery.ui.JqueryUITest.StartChromeBrowser(JqueryUITest.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartChromeBrowser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.jquery.ui.JqueryUITest@7cbd213e]" name="afterMethod" is-config="true" duration-ms="3754" started-at="2019-10-06T19:50:39Z" finished-at="2019-10-06T19:50:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="eachMethodStart()[pri:0, instance:com.jquery.ui.JqueryUITest@7cbd213e]" name="eachMethodStart" is-config="true" duration-ms="3354" started-at="2019-10-06T19:50:43Z" finished-at="2019-10-06T19:50:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eachMethodStart -->
+        <test-method status="PASS" signature="interactions()[pri:1, instance:com.jquery.ui.JqueryUITest@7cbd213e]" name="interactions" duration-ms="23431" started-at="2019-10-06T19:50:46Z" finished-at="2019-10-06T19:51:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interactions -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.jquery.ui.JqueryUITest@7cbd213e]" name="afterMethod" is-config="true" duration-ms="3744" started-at="2019-10-06T19:51:09Z" finished-at="2019-10-06T19:51:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="eachMethodStart()[pri:0, instance:com.jquery.ui.JqueryUITest@7cbd213e]" name="eachMethodStart" is-config="true" duration-ms="3369" started-at="2019-10-06T19:51:13Z" finished-at="2019-10-06T19:51:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eachMethodStart -->
+        <test-method status="PASS" signature="widgets()[pri:2, instance:com.jquery.ui.JqueryUITest@7cbd213e]" name="widgets" duration-ms="66304" started-at="2019-10-06T19:51:17Z" finished-at="2019-10-06T19:52:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- widgets -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.jquery.ui.JqueryUITest@7cbd213e]" name="afterMethod" is-config="true" duration-ms="3796" started-at="2019-10-06T19:52:23Z" finished-at="2019-10-06T19:52:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.jquery.ui.JqueryUITest -->
+    </test> <!-- Test -->
+  </suite> <!-- JQueryUI.suite -->
+</testng-results>

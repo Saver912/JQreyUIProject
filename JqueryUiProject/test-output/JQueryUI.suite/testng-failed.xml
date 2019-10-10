@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [JQueryUI.suite]">
+  <listeners>
+    <listener class-name="com.extend.test.report.ExtentTestNGITestListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.jquery.ui.JqueryUITest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="StartChromeBrowser"/>
+          <include name="eachMethodStart"/>
+        </methods>
+      </class> <!-- com.jquery.ui.JqueryUITest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [JQueryUI.suite] -->
